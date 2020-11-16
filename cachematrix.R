@@ -1,4 +1,4 @@
-## This function first creates a matrix to chace.
+## This function first creates a matrix and stores it.
 
 makeCacheMatrix <- function(x = matrix()) {
         inver <- NULL
@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
              set_inver = set_inver,
              get_inver = get_inver)
 }
-## Return the inverse of the matrix. If it already exists, it gives a
+## In this part it returns the inverse of the matrix. If it already exists, it gives a
 ## message and prints it.
 
 cacheSolve <- function(x, ...) {
